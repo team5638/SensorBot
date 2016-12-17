@@ -52,12 +52,12 @@ public class EncoderMechanism extends Subsystem {
         // setDefaultCommand(new MySpecialCommand());
     }
     	public void MechansimForward(){
-    		encoderMechanism.reset();
+    		//encoderMechanism.reset();
     		rS755.set(.5);
     	}
     	
     	public void MechansimReverse(){
-    		encoderMechanism.reset();
+    		//encoderMechanism.reset();
     		rS755.set(-.5);
     	}
     	public void MechansimStop(){

@@ -67,9 +67,9 @@ public class OI {
         encoderResetButton = new JoystickButton(stick, 5);
         encoderResetButton.whenPressed(new EncoderReset());
         button4 = new JoystickButton(stick, 4);
-        button4.whileHeld(new MechansimReverse());
+        button4.whenPressed(new MechansimReverse());
         button3 = new JoystickButton(stick, 3);
-        button3.whileHeld(new MechansimForward());
+        button3.whenPressed(new MechansimForward());
 
 
         // SmartDashboard Buttons
